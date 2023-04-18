@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Result Summary Component</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="data__result">
+            <h1 class="data__result--title">Your Result</h1>
+
+            <div class="data__result--marks">
+                <p><span>76</span> of 100</p>
+            </div>
+
+            <h2 class="data__result--great">Great</h2>
+
+            <p class="data__result--info">
+                You scored higher than 65% of the people who have taken these tests.
+            </p>
+        </div>
+
+        <div class="data__summary">
+            <h3 class="data__summary--title">Summary</h3>
+            <div class="data__summary__info">
+                <div class="data__summary__info--reaction">
+                    <div class="data__summary__info--reaction__visual">
+                        <img src="img/icon-reaction.svg" alt="reaction">
+                        <p>Reaction</p>
+                    </div>
+                    <div class="data__summary__info--reaction__data">
+                        <p><span>80</span> /100</p>
+                    </div>
+                </div>
+
+                <div class="data__summary__info--memory">
+                    <div class="data__summary__info--memory__visual">
+                        <img src="img/icon-memory.svg" alt="memory">
+                        <p>Memory</p>
+                    </div>
+                    <div class="data__summary__info--reaction__data">
+                        <p><span>92</span> /100</p>
+                    </div>
+                </div>
+
+                <div class="data__summary__info--verbal">
+                    <div class="data__summary__info--verbal__visual">
+                        <img src="img/icon-verbal.svg" alt="verbal">
+                        <p>Verbal</p>
+                    </div>
+                    <div class="data__summary__info--reaction__data">
+                        <p><span>61</span >/100</p>
+                    </div>
+                </div>
+
+                <div class="data__summary__info--visual">
+                    <div class="data__summary__info--visual__visual">
+                        <img src="img/icon-visual.svg" alt="visual">
+                        <p>Visual</p>
+                    </div>
+                    <div class="data__summary__info--reaction__data">
+                        <p><span>72</span> /100</p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="data__summary--btn">Continue</button>
+        </div>
+    </div>
+</body>
+
+</html>
